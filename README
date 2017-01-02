@@ -1,1 +1,16 @@
-Prueba de configuración
+Descripción: El proyecto que presento consiste en un analizador de los http de la página https://www.instant-gaming.com/es/, de forma que se estraen las ofertas de los juegos para tres plataformas de las que tienen disponibles.
+
+Instrucciones: 
+Pasos:
+1.Dar permisos de ejecución a downloader.sh
+2.Ejecutar downloader.sh mediante ./downloader.sh
+3.Usar el comando flex procesor.l
+4.Utilizar el comando gcc lex.yy.c -o gangas -lfl
+5.Utilizar la orden ./gangas <nombre>.txt (en este caso: steam.txt, origin.txt y battle-net.txt)
+
+Si seguimos esta serie de pasos, por pantalla se nos mostrarán las diferentes ofertas de la página relacionadas con la plataforma elegida.
+
+El formato de salida será:
+Descuento:	-<descuento>% o N/A
+	Precio:	<precio>€
+	Nombre:	<Nombre del juego>
